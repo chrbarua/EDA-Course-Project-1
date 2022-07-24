@@ -9,5 +9,5 @@ if(!file.exists("data/Dataset")) {
   unzip(zip, exdir = "data")
 }
 
-file <- read.table("data/Dataset/household_power_consumption.txt", sep = ';')
-View(file)
+HP_data <- read.table("data/Dataset/household_power_consumption.txt", sep = ';')
+View(HP_data)
